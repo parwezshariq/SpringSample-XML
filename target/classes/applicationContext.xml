@@ -15,7 +15,8 @@
 	</bean> -->
 	
 	<bean name="customerService"
-		class="com.shariqparwez.service.CustomerServiceImpl" autowire="byType">
+		class="com.shariqparwez.service.CustomerServiceImpl" autowire="byType" 
+		scope="prototype">
 	</bean>
 
 </beans>
